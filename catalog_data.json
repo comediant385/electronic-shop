@@ -1,0 +1,104 @@
+[
+  {
+    "model": "catalog.category",
+    "pk": 1,
+    "fields": {
+      "category_name": "Смартфоны",
+      "category_description": "Смартфоны и гаджеты"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 2,
+    "fields": {
+      "category_name": "Ноутбуки",
+      "category_description": "Компьютеры и ноутбуки"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 3,
+    "fields": {
+      "category_name": "Бытовая техника",
+      "category_description": "Техника для дома"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 1,
+    "fields": {
+      "product_name": "Смартфон Apple iPhone 15 Pro",
+      "product_description": "Смартфон Apple iPhone 15 Pro 128GB Natural Titanium (Dual Sim)",
+      "image": "products/Apple_iPhone_15_Pro.jpeg",
+      "category": 1,
+      "price": 130000,
+      "created_at": "2024-04-23T14:47:09.314Z",
+      "updated_at": "2024-04-23T14:47:09.314Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 2,
+    "fields": {
+      "product_name": "Смартфон Samsung Galaxy S24 Ultra",
+      "product_description": "Смартфон Samsung Galaxy S24 Ultra 12/256GB Cobalt Violet",
+      "image": "products/Смартфон_Samsung_Galaxy_S24_Ultra.jpg",
+      "category": 1,
+      "price": 150000,
+      "created_at": "2024-04-23T14:47:50.628Z",
+      "updated_at": "2024-04-23T14:47:50.628Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 3,
+    "fields": {
+      "product_name": "Ноутбук HONOR MagicBook X 16 Pro",
+      "product_description": "Ноутбук HONOR MagicBook X 16 Pro Space Gray (5301AGXP)",
+      "image": "products/Ноутбук_HONOR_MagicBook_X_16.jpg",
+      "category": 2,
+      "price": 90000,
+      "created_at": "2024-04-23T14:48:23.955Z",
+      "updated_at": "2024-04-23T14:48:23.955Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 4,
+    "fields": {
+      "product_name": "Ноутбук Apple MacBook Air 13",
+      "product_description": "Ноутбук Apple MacBook Air 13 M1/8/256GB Space Gray (MGN63)",
+      "image": "products/Ноутбук_Apple_MacBook_Air_13.jpg",
+      "category": 2,
+      "price": 100000,
+      "created_at": "2024-04-23T14:48:59.214Z",
+      "updated_at": "2024-04-23T14:48:59.214Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 5,
+    "fields": {
+      "product_name": "Стиральная машина Gorenje",
+      "product_description": "Стиральная машина Gorenje W1NHEI74SAS",
+      "image": "products/Стиральная_машина_Gorenje.jpg",
+      "category": 3,
+      "price": 40000,
+      "created_at": "2024-04-23T14:49:30.880Z",
+      "updated_at": "2024-04-23T14:49:30.880Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 6,
+    "fields": {
+      "product_name": "Вертикальный пылесос Tefal",
+      "product_description": "Вертикальный пылесос Tefal X-Force Flex 9.60 Animal TY2079WO",
+      "image": "products/Вертикальный_пылесос_Tefal_X-Force.jpg",
+      "category": 3,
+      "price": 20000,
+      "created_at": "2024-04-23T14:49:59.057Z",
+      "updated_at": "2024-04-23T14:49:59.057Z"
+    }
+  }
+]
