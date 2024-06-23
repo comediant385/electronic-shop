@@ -1,5 +1,4 @@
 from django.db import models
-
 from users.models import User
 
 NULLABLE = {"blank": True, "null": True}
@@ -26,7 +25,6 @@ class Category(models.Model):
 
 
 class Product(models.Model):
-    objects = None
     product_name = models.CharField(
         max_length=150,
         verbose_name="Наименование продукта",
@@ -68,10 +66,10 @@ class Product(models.Model):
     )
     published = models.BooleanField(default=False, verbose_name="Опубликован",)
 
-    manufactured_at = models.DateTimeField(
-        verbose_name="Дата производства продукта",
-        **NULLABLE,
-    )
+    # manufactured_at = models.DateTimeField(
+    #     verbose_name="Дата производства продукта",
+    #     **NULLABLE,
+    # )
 
     def __str__(self):
         return self.product_name
